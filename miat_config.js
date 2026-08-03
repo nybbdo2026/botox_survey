@@ -1,17 +1,17 @@
 const brands = [
-    { name: "Axe", img: "img/Axe.png" },
-    { name: "Degree", img: "img/Degree.png" }, 
-    { name: "Dove_men", img:"img/Dove_men.png" }, 
-    { name: "Dr_Squatch", img:"img/Dr_Squatch.png" },
-    { name: "Hawthrone", img: "img/Hawthrone.png" },
-    { name: "Mando", img: "img/Mando.png" },
-    { name: "Native", img: "img/Native.png" },
-    { name: "Old_spice", img: "img/Old_spice.png" }
+    { name: "Botox", img: "img/Botox.png" },
+    { name: "Chanel", img: "img/Chanel.png" }, 
+    { name: "Dysport", img:"img/Dysport.png" }, 
+    { name: "Fenty_Beauty", img:"img/Fenty_Beauty.png" },
+    { name: "Olay", img: "img/Olay.png" },
+    { name: "Rhode", img: "img/Rhode.png" },
+    { name: "Skin_Ceuticals", img: "img/Skin_Ceuticals.png" },
+    { name: "The_Ordinary", img: "img/The_Ordinary.png" }
   ];
 
-const category = "Body Spray"
+const category = "Beauty, Skincare & Aesthetic Brands"
 
-const attributes = ["adventure","freedom","courage","spontaneity","escape","self-expression","resilience","daring","pride","perfection","recognition","success","self-confidence","empowerment","becoming my best self","independence","allure","discipline","control","reason","efficiency","pragmatic","simplicity","expertise","functional","safety","security","closeness","belonging","protection","confidence","acceptance by others","self-acceptance","joy","spoil myself","sensuality","carefreeness","comfort","indulge myself","exhilaration","naturalness","be at ease with myself","desirability","excitement","zest for life","inspiration","vitality","fun","playfulness","stimulation","individuality","magnetism","charisma"];
+const attributes = ["Freedom","Courage","Impulsiveness","Discovery","Escape","Unconventional","Resilience","Boldness","Transformation","Pride","Perfection","Recognition","Success","Sophistication","Confidence","Status","Empowerment","Optimization","Legacy","Original","Esteem","Routine/Discipline","Control","Effective","Simplicity","Methodical","Expertise","Natural","Savvy","Value","Proactive","High quality","Endorsed","Safety","Trusted","Protection","Peace of mind","Comfort","Belonging","Acceptance by others","Avoid embarrassment","Dependable","Joy","Sensual","Carefreeness","Relief","Fun","Indulge myself","Optimism","Naturalness","Be at ease with myself","Excitement","Zest for life","Inspiration","Vitality","Playfulness","Expression","Be on trend","Vibrant","Reviving"];
 
 const pretest_attributes = [
   "Hot", 
@@ -41,4 +41,4 @@ const pretest_images_multiple = [
 ]
 
 
-const survey_name = "Axe Body Spray"
+const survey_name = "Botox Survey"

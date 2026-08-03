@@ -1491,14 +1491,14 @@ const preload = {
    'pretest_img/pretest_icecube.png',
    'pretest_img/pretest_ocean.png',
    'pretest_img/pretest_clock.png',
-   'img/Axe.png',
-   'img/Degree.png',
-   'img/Dove_men.png',
-   'img/Dr_Squatch.png',
-   'img/Hawthrone.png', 
-   'img/Mando.png',
-   'img/Native.png',
-   'img/Old_spice.png'
+   'img/Botox.png',
+   'img/Chanel.png',
+   'img/Dysport.png',
+   'img/Fenty_Beauty.png',
+   'img/Olay.png', 
+   'img/Rhode.png',
+   'img/Skin_Ceuticals.png',
+   'img/The_Ordinary.png'
   ]
 }
 
