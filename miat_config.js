@@ -1,15 +1,11 @@
 const brands = [
-    { name: "Botox", img: "img/Botox.png" },
-    { name: "Chanel", img: "img/Chanel.png" }, 
-    { name: "Dysport", img:"img/Dysport.png" }, 
-    { name: "Fenty_Beauty", img:"img/Fenty_Beauty.png" },
-    { name: "Olay", img: "img/Olay.png" },
-    { name: "Rhode", img: "img/Rhode.png" },
-    { name: "Skin_Ceuticals", img: "img/Skin_Ceuticals.png" },
-    { name: "The_Ordinary", img: "img/The_Ordinary.png" }
+    { name: "BMW", img: "img/BMW.png" },
+    { name: "Ducati", img: "img/Ducati.png" }, 
+    { name: "Honda", img:"img/Honda.png" }, 
+    { name: "Suzuki", img:"img/Suzuki.png" }
   ];
 
-const category = "Beauty, Skincare & Aesthetic Brands"
+const category = "Aesthetic Enhancement"
 
 const attributes = ["Freedom","Courage","Impulsiveness","Discovery","Escape","Unconventional","Resilience","Boldness","Transformation","Pride","Perfection","Recognition","Success","Sophistication","Confidence","Status","Empowerment","Optimization","Legacy","Original","Esteem","Routine/Discipline","Control","Effective","Simplicity","Methodical","Expertise","Natural","Savvy","Value","Proactive","High quality","Endorsed","Safety","Trusted","Protection","Peace of mind","Comfort","Belonging","Acceptance by others","Avoid embarrassment","Dependable","Joy","Sensual","Carefreeness","Relief","Fun","Indulge myself","Optimism","Naturalness","Be at ease with myself","Excitement","Zest for life","Inspiration","Vitality","Playfulness","Expression","Be on trend","Vibrant","Reviving"];
 
@@ -41,4 +37,4 @@ const pretest_images_multiple = [
 ]
 
 
-const survey_name = "Botox Survey"
+const survey_name = "Test Bikes Survey"

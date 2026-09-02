@@ -4,7 +4,7 @@ function isMobileDevice() {
 }
 
 const minRT = 250;
-const maxRT = 6000;
+const maxRT = 10000;
 
 const respondentIsMobile = isMobileDevice();
 
@@ -603,6 +603,7 @@ function generateFlatMultiBrandTrials(trialVars, respondentId, partLabel, isPret
       stimulus: () => {
         const attr = vars.attribute;  // ✅ no vars.data
         const brandImgs = imagePaths;
+        const promptText = isPretest ? "Which image best represents:" : "Which brand best represents:";
         const brandKeys = ['A', 'S', 'K', 'L'];
         const brandKeyColors = [
           "rgb(32, 150, 11)",
@@ -629,7 +630,7 @@ function generateFlatMultiBrandTrials(trialVars, respondentId, partLabel, isPret
             <div style="display:flex; flex-direction:column; align-items:center; padding:4vh 4vw; width:100%;">
               <div style="background:#ddd; border-radius:16px; padding:3vh 5vw;
                           width:min(800px, 90vw); text-align:center; margin:0 auto 4vh;">
-                <p style="font-size:1.5rem; color:#666;">Which image best represents:</p>
+                <p style="font-size:1.5rem; color:#666;">${promptText}</p>
                 <p style="font-size:2.2rem; font-weight:700; color:#111;">${attr}</p>
               </div>
               <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(clamp(180px, 22vw, 240px), 1fr));
@@ -641,7 +642,7 @@ function generateFlatMultiBrandTrials(trialVars, respondentId, partLabel, isPret
 
         // 📱 Mobile layout
         return `<div style="text-align:center; padding:4vh 5vw;">
-                  <p style="font-size:1.2rem; color:#999;">Which brand best represents:</p>
+                  <p style="font-size:1.2rem; color:#999;">${promptText}</p>
                   <p style="font-size:1.6rem; font-weight:700; color:#111; margin-bottom:4vh;">${attr}</p>
                 </div>`;
       },
@@ -1491,14 +1492,10 @@ const preload = {
    'pretest_img/pretest_icecube.png',
    'pretest_img/pretest_ocean.png',
    'pretest_img/pretest_clock.png',
-   'img/Botox.png',
-   'img/Chanel.png',
-   'img/Dysport.png',
-   'img/Fenty_Beauty.png',
-   'img/Olay.png', 
-   'img/Rhode.png',
-   'img/Skin_Ceuticals.png',
-   'img/The_Ordinary.png'
+   'img/BMW.png',
+   'img/Ducati.png',
+   'img/Honda.png',
+   'img/Suzuki.png'
   ]
 }
 
